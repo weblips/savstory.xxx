@@ -1,7 +1,7 @@
 <?php
 class ControllerCatalogAttribute extends Controller {
 	private $error = array();
-
+        private $success_ = array();
 	public function index() {
 		$this->load->language('catalog/attribute');
 
