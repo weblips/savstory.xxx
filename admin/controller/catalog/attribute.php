@@ -1,8 +1,8 @@
 <?php
 class ControllerCatalogAttribute extends Controller {
 	private $error = array();
-        private $success_ = array();
-	public function index() {
+
+        public function index() {
 		$this->load->language('catalog/attribute');
 
 		$this->document->setTitle($this->language->get('heading_title'));
