@@ -58,3 +58,5 @@
 # IDE Project files
 /.idea
 /nbproject/private/
+
+/admin/view/stylesheet/bootstrap.css
